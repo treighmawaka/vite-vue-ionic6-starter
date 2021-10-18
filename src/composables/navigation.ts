@@ -13,11 +13,9 @@ export function useNavigation() {
 
   // check if the current route is nested
   const routeParts = computed(() => route.fullPath.split('/'));
-  const isNested = computed(() => routeParts.value.length > 1);
 
   return {
     goBack,
-    isNested,
     routeName,
     isGuestPage,
   };

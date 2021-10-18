@@ -10,11 +10,13 @@ import { computed } from 'vue';
 import { home } from 'ionicons/icons';
 import { useNavigation } from '@/composables/navigation';
 
-const { isNested } = useNavigation();
-
 const props = defineProps({
   title: {
     type: String,
+  },
+  showBackButton: {
+    type: Boolean,
+    default: false,
   },
 });
 </script>
@@ -29,7 +31,7 @@ const props = defineProps({
     <ion-toolbar>
       <ion-buttons slot="start">
         <ion-back-button
-          :v-show="isNested"
+          :v-show="showBackButton"
           slot="primary"
           default-href="/"
         ></ion-back-button>
