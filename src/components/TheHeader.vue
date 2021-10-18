@@ -1,5 +1,11 @@
 <script setup lang="ts">
-import { IonHeader, IonTitle, IonToolbar } from '@ionic/vue';
+import {
+  IonHeader,
+  IonTitle,
+  IonBackButton,
+  IonButtons,
+  IonToolbar,
+} from '@ionic/vue';
 import { computed } from 'vue';
 import { home } from 'ionicons/icons';
 import { useNavigation } from '@/composables/navigation';
@@ -9,7 +15,6 @@ const { isNested } = useNavigation();
 const props = defineProps({
   title: {
     type: String,
-    required: true,
   },
 });
 </script>
