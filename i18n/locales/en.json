@@ -1,0 +1,10 @@
+{
+  "messages": {
+    "hello": "Hello",
+    "toggle_language": "Toggle Language"
+  },
+  "pages": {
+    "home": "Home",
+    "about": "About Us"
+  }
+}

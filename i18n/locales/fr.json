@@ -1,0 +1,10 @@
+{
+  "messages": {
+    "hello": "Bonjour",
+    "toggle_language": "Changer la language"
+  },
+  "pages": {
+    "home": "Accueil",
+    "about": "Qui sommes-nous?"
+  }
+}
