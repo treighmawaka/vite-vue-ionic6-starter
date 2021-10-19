@@ -19,7 +19,7 @@ import {
 import TheHeader from '@/components/TheHeader.vue';
 import PagePlaceholder from '@/components/PagePlaceholder.vue';
 import LanguageSelector from '@/components/LanguageSelector.vue';
-import BaseAccordion from '@/components/BaseAccordion.vue';
+import Accordion from '@/components/Accordion.vue';
 import dayjs, { Dayjs } from 'dayjs';
 
 const date = ref('');
@@ -58,7 +58,8 @@ const formatDate = (value: FormatDateOptions, format = 'YYYY-MM-DD') => {
 
       <LanguageSelector />
 
-      <!-- <BaseAccordion /> -->
+      <!-- base accordion -->
+      <Accordion />
 
       <!-- Datetime in overlay -->
       <p>Selected date: {{ date }}</p>
