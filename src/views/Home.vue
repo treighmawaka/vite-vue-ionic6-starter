@@ -62,8 +62,9 @@ const formatDate = (value: FormatDateOptions, format = 'YYYY-MM-DD') => {
       <Accordion />
 
       <!-- Datetime in overlay -->
-      <p>Selected date: {{ date }}</p>
+      <!-- <p>Selected date: {{ date }}</p>
       <p>Formatted date: {{ formatDate(date) }}</p>
+      
       <ion-modal
         trigger="open-modal"
         :initial-breakpoint="0.75"
@@ -83,17 +84,17 @@ const formatDate = (value: FormatDateOptions, format = 'YYYY-MM-DD') => {
             @ionChange="setDate($event.target.value)"
           ></ion-datetime>
         </ion-content>
-      </ion-modal>
+      </ion-modal> -->
 
       <!-- lists -->
-      <ion-list lines="full">
+      <!-- <ion-list lines="full">
         <ion-item button router-link="/tabs" id="tabs">
           <ion-label>Show Tabs</ion-label>
         </ion-item>
         <ion-item button id="open-modal">
           <ion-label>Open Datetime Modal</ion-label>
         </ion-item>
-      </ion-list>
+      </ion-list> -->
     </ion-content>
   </ion-page>
 </template>
