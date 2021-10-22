@@ -1,7 +1,7 @@
 {
   "messages": {
     "hello": "Bonjour",
-    "toggle_language": "Changer la language"
+    "toggle_language": "Changer la langue"
   },
   "pages": {
     "home": "Accueil",
