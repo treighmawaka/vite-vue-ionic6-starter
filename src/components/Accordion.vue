@@ -1,4 +1,4 @@
-<script lang="typescript" setup>
+<script lang="ts" setup>
 import { IonAccordion, IonAccordionGroup, IonList, IonButton, IonItem, IonLabel } from '@ionic/vue';
 import { arrowDownCircle } from 'ionicons/icons';
     const accordionGroup = ref();
